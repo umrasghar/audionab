@@ -1,0 +1,33 @@
+[project]
+name = "audionab"
+version = "2.5.0"
+description = "Lightweight audio extractor — nab the audio from any video in one click."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = [
+    "customtkinter>=5.2.0",
+    "windnd>=1.0.7",
+    "pystray>=0.19",
+    "Pillow>=9.0",
+    "watchdog>=3.0",
+    "httpx>=0.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+audionab = "audionab.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"

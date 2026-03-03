@@ -1,0 +1,14 @@
+# AudioNab dependencies
+# tkinter and sqlite3 are included with Python.
+
+customtkinter>=5.2.0    # Modern UI widgets
+
+# Optional — enhances the experience:
+windnd>=1.0.7           # Drag-and-drop support on Windows
+pystray>=0.19           # System tray icon
+Pillow>=9.0             # Image processing (tray icon)
+watchdog>=3.0           # Folder monitoring for auto-conversion
+httpx>=0.24             # HTTP client for Deepgram API
+
+# Build only — needed to compile standalone .exe:
+# pyinstaller>=6.0

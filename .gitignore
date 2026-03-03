@@ -1,0 +1,42 @@
+# Build
+build/
+dist/
+*.spec
+installer_output/
+
+# FFmpeg (downloaded, not committed)
+ffmpeg/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# App data (generated at runtime)
+*.db
+*_config.json
+launcher/
+
+# Nuitka build artifacts
+*.build/
+*.dist/
+*.onefile-build/
