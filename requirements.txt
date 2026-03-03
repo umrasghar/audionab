@@ -9,6 +9,7 @@ pystray>=0.19           # System tray icon
 Pillow>=9.0             # Image processing (tray icon)
 watchdog>=3.0           # Folder monitoring for auto-conversion
 httpx>=0.24             # HTTP client for Deepgram API
+sniffio>=1.3            # Async library detection (httpx dependency)
 
 # Build only — needed to compile standalone .exe:
 # pyinstaller>=6.0
