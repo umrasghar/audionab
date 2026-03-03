@@ -28,7 +28,7 @@ python scripts/generate_icon.py
 
 echo   [4/5] Building AudioNab.exe with Nuitka...
 
-set NUITKA_ARGS=--standalone --onefile
+set NUITKA_ARGS=--standalone --onefile --zig
 set NUITKA_ARGS=%NUITKA_ARGS% --windows-console-mode=disable
 set NUITKA_ARGS=%NUITKA_ARGS% --enable-plugin=tk-inter
 set NUITKA_ARGS=%NUITKA_ARGS% --include-package=customtkinter
@@ -45,7 +45,6 @@ set NUITKA_ARGS=%NUITKA_ARGS% --include-package=sniffio
 set NUITKA_ARGS=%NUITKA_ARGS% --include-package=certifi
 set NUITKA_ARGS=%NUITKA_ARGS% --include-package=idna
 set NUITKA_ARGS=%NUITKA_ARGS% --include-package=audionab
-set NUITKA_ARGS=%NUITKA_ARGS% --include-data-dir=audionab=audionab
 set NUITKA_ARGS=%NUITKA_ARGS% --include-data-dir=assets=assets
 set NUITKA_ARGS=%NUITKA_ARGS% --output-dir=dist
 set NUITKA_ARGS=%NUITKA_ARGS% --output-filename=AudioNab.exe

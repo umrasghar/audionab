@@ -42,6 +42,7 @@ jobs:
           python -m nuitka ^
             --standalone ^
             --onefile ^
+            --zig ^
             --windows-console-mode=disable ^
             --enable-plugin=tk-inter ^
             --include-package=customtkinter ^
@@ -58,7 +59,6 @@ jobs:
             --include-package=certifi ^
             --include-package=idna ^
             --include-package=audionab ^
-            --include-data-dir=audionab=audionab ^
             --include-data-dir=assets=assets ^
             --include-data-files=ffmpeg/ffmpeg.exe=ffmpeg/ffmpeg.exe ^
             --include-data-files=ffmpeg/ffprobe.exe=ffmpeg/ffprobe.exe ^
