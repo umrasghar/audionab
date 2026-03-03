@@ -48,7 +48,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-Name: "contextmenu"; Description: "Add ""Nab Audio"" to right-click context menu"; GroupDescription: "System Integration:"; Flags: checked
+Name: "contextmenu"; Description: "Add ""Nab Audio"" to right-click context menu"; GroupDescription: "System Integration:"
 Name: "classicmenu"; Description: "Enable full right-click menu on Windows 11 (skip 'Show more options')"; GroupDescription: "System Integration:"; Flags: unchecked
 
 [Files]
