@@ -1,7 +1,6 @@
 """Toast notification widget for non-blocking messages."""
 
 import logging
-import sys
 
 try:
     import customtkinter as ctk

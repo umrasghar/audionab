@@ -34,11 +34,10 @@ from .. import (
 from ..converter import Converter
 from ..database import HistoryDB
 from ..config import Config
-from ..context_menu import ContextMenuManager
 from ..helpers import format_size, format_time_ago, open_folder, bind_tree
 from ..transcriber import transcribe
 from ..tray import TrayManager, HAS_PYSTRAY
-from ..watcher import FolderWatcher, HAS_WATCHDOG
+from ..watcher import FolderWatcher
 from .settings import SettingsWindow
 from .toast import ToastManager
 

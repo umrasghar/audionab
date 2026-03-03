@@ -3,7 +3,6 @@
 import os
 import sys
 from datetime import datetime, timedelta
-from unittest.mock import patch
 
 # Add parent to path so we can import audionab package
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

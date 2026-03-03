@@ -1,6 +1,5 @@
 """Tests for audionab.config — no GUI or FFmpeg required."""
 
-import json
 import os
 import sys
 import tempfile
