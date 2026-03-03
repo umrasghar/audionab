@@ -7,7 +7,7 @@ Thank you for your interest in contributing to AudioNab. This document provides 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/AdeelIlyas/audionab.git
+   git clone https://github.com/umrasghar/audionab.git
    cd audionab
    ```
 
@@ -112,7 +112,7 @@ python scripts/generate_icon.py
 
 ## Reporting Bugs
 
-Please use the [Bug Report template](https://github.com/AdeelIlyas/audionab/issues/new?template=bug_report.md) when filing issues.
+Please use the [Bug Report template](https://github.com/umrasghar/audionab/issues/new?template=bug_report.md) when filing issues.
 
 When reporting a bug, include the log file located at:
 

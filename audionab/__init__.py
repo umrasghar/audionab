@@ -7,7 +7,7 @@ Nab the audio from any video in one click.
 APP_NAME = "AudioNab"
 APP_VERSION = "2.5.0"
 APP_TAGLINE = "Nab the audio from any video."
-APP_REPO = "https://github.com/AdeelIlyas/audionab"
+APP_REPO = "https://github.com/umrasghar/audionab"
 DB_NAME = "audionab_history.db"
 CONFIG_NAME = "audionab_config.json"
 REGISTRY_KEY_NAME = "AudioNab"

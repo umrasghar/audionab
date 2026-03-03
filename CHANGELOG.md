@@ -32,4 +32,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 40 pytest tests
 - 3-pass fault-tolerant conversion engine
 
-[2.5.0]: https://github.com/AdeelIlyas/audionab/releases/tag/v2.5.0
+[2.5.0]: https://github.com/umrasghar/audionab/releases/tag/v2.5.0

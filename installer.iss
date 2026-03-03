@@ -18,7 +18,7 @@
 #define MyAppName "AudioNab"
 #define MyAppVersion "2.5.0"
 #define MyAppPublisher "AudioNab"
-#define MyAppURL "https://github.com/AdeelIlyas/audionab"
+#define MyAppURL "https://github.com/umrasghar/audionab"
 #define MyAppExeName "AudioNab.exe"
 
 [Setup]

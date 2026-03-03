@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AdeelIlyas/audionab/actions/workflows/ci.yml"><img src="https://github.com/AdeelIlyas/audionab/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://github.com/AdeelIlyas/audionab/releases/latest"><img src="https://img.shields.io/github/v/release/AdeelIlyas/audionab?label=release" alt="Release" /></a>
+  <a href="https://github.com/umrasghar/audionab/actions/workflows/ci.yml"><img src="https://github.com/umrasghar/audionab/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://github.com/umrasghar/audionab/releases/latest"><img src="https://img.shields.io/github/v/release/umrasghar/audionab?label=release" alt="Release" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" /></a>
   <img src="https://img.shields.io/badge/python-%3E%3D3.8-3776AB.svg" alt="Python 3.8+" />
   <img src="https://img.shields.io/badge/platform-Windows-0078D6.svg" alt="Windows" />
@@ -50,7 +50,7 @@
 
 ### Option A: Download the Installer (recommended)
 
-1. Go to the [latest release](https://github.com/AdeelIlyas/audionab/releases/latest)
+1. Go to the [latest release](https://github.com/umrasghar/audionab/releases/latest)
 2. Download `AudioNab-Setup-2.5.0.exe`
 3. Run the installer -- FFmpeg is bundled, no separate install needed
 4. Right-click any video file and select **"Nab Audio"**
@@ -59,7 +59,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/AdeelIlyas/audionab.git
+git clone https://github.com/umrasghar/audionab.git
 cd audionab
 
 # Install dependencies
@@ -203,7 +203,7 @@ python audionab.py --uninstall
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/AdeelIlyas/audionab.git
+git clone https://github.com/umrasghar/audionab.git
 cd audionab
 pip install -r requirements.txt
 ```
